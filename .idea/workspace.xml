@@ -6,7 +6,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+=======
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDB" beforeDir="false" afterPath="$PROJECT_DIR$/MyDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Imodel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Imodel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/updateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/updateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Update.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Update.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/updateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/updateController.class" afterDir="false" />
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
+    </list>
+>>>>>>> 942406daaecaf888c5b94687843c23179f2d5c04
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -121,8 +141,13 @@
       <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/Users.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+=======
             <state relative-caret-position="593">
               <caret line="122" column="44" lean-forward="true" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -288,14 +313,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
       <pane id="PackagesPane" />
       <pane id="Scope" />
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="vacation4u" type="b2602c69:ProjectViewProjectNode" />
               <item name="vacation4u" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="vacation4u" type="b2602c69:ProjectViewProjectNode" />
@@ -338,6 +368,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
             </path>
             <path>
               <item name="vacation4u" type="b2602c69:ProjectViewProjectNode" />
@@ -350,6 +381,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+=======
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -366,7 +402,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+    <property name="project.structure.last.edited" value="Modules" />
+=======
     <property name="project.structure.last.edited" value="Project" />
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -498,15 +538,38 @@
       <workItem from="1540832677645" duration="566000" />
       <workItem from="1540833587884" duration="602000" />
       <workItem from="1540835649562" duration="56000" />
+<<<<<<< HEAD
       <workItem from="1540839630162" duration="3486000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1540838316244" duration="674000" />
+=======
+      <workItem from="1540839630162" duration="2891000" />
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
+>>>>>>> 942406daaecaf888c5b94687843c23179f2d5c04
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="93948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="91136000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="93353000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
+>>>>>>> 942406daaecaf888c5b94687843c23179f2d5c04
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -518,11 +581,23 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.20689656" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.20667727" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1749634" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.20689656" />
+>>>>>>> 942406daaecaf888c5b94687843c23179f2d5c04
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17447917" />
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -837,8 +912,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/updateController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="381">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+=======
+        <state relative-caret-position="242">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+>>>>>>> d69e1c96fefece15d03f9f65098074d20880f802
+>>>>>>> 942406daaecaf888c5b94687843c23179f2d5c04
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
