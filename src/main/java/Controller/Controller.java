@@ -18,8 +18,8 @@ public class Controller {
         return model.ReadUser(usr);
     }
 
-    public boolean[] UpdateUser(String username,String password,String dateOfBirth,String firstName,String lastName,String city){
-        return model.UpdateUser(username, password, dateOfBirth, firstName, lastName, city);
+    public boolean[] UpdateUser(String oldusername, String username,String password,String dateOfBirth,String firstName,String lastName,String city){
+        return model.UpdateUser(oldusername, username, password, dateOfBirth, firstName, lastName, city);
     }
 
     public void DeleteUser(String userName){

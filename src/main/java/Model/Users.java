@@ -98,13 +98,16 @@ public class Users {
 
     }
 
-    public boolean[] UpdateUser(String username,String password,String dateOfBirth,String firstName,String lastName,String city) {
+    public boolean[] UpdateUser(String oldusername, String username,String password,String dateOfBirth,String firstName,String lastName,String city) {
+
+
 
         Pair<boolean[], Boolean> resultOfCheckFields = checkFields(username, password, dateOfBirth, firstName, lastName, city);
         if (resultOfCheckFields.getValue()) return resultOfCheckFields.getKey();
 
 
-        String sql = "UPDATE Users SET password = ? , "
+        String sql = "UPDATE Users SET username = ? , "
+                + "password = ?, "
                 + "dateOfBirth = ?, "
                 + "firstName = ?, "
                 + "lastName = ?, "
@@ -115,12 +118,13 @@ public class Users {
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
 
             // set the corresponding param
-            pstmt.setString(1, password);
-            pstmt.setString(2, dateOfBirth);
-            pstmt.setString(3, firstName);
-            pstmt.setString(4, lastName);
-            pstmt.setString(5, city);
-            pstmt.setString(6, username);
+            pstmt.setString(1, username);
+            pstmt.setString(2, password);
+            pstmt.setString(3, dateOfBirth);
+            pstmt.setString(4, firstName);
+            pstmt.setString(5, lastName);
+            pstmt.setString(6, city);
+            pstmt.setString(7, oldusername);
             // update
             pstmt.executeUpdate();
         } catch (SQLException e) {

@@ -35,7 +35,7 @@ public interface Imodel {
      * @param city
      * @return Boolean array which describes which of fields was not filled
      */
-    boolean[] UpdateUser(String username,String password,String dateOfBirth,String firstName,String lastName,String city);
+    boolean[] UpdateUser(String oldusername,String username,String password,String dateOfBirth,String firstName,String lastName,String city);
 
     /**
      * The function deletes the user from the system permanently by a specified form
