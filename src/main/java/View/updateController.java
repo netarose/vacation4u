@@ -7,6 +7,9 @@ import java.time.format.DateTimeFormatter;
 public class updateController extends generalController {
 
     public javafx.scene.control.Button btn_update;
+    public javafx.scene.control.Label txtfld_usrExists;
+    private String oldUserName;
+
     public void update(javafx.event.ActionEvent event) throws IOException {
 
         String[] checkUserTaken = controller.ReadUser(txtfld_userName.getText());
@@ -17,8 +20,8 @@ public class updateController extends generalController {
             datefld_userBirthday.setValue(localDate);
         }
 
-        if(checkUserTaken.length !=1){
-            boolean[] checkFields = controller.UpdateUser(txtfld_userName.getText(),txtfld_userPassword.getText(),datefld_userBirthday.getValue().toString(), txtfld_userFirstName.getText(),txtfld_userLastName.getText(), txtfld_userCity.getText());
+        if(oldUserName.equals(txtfld_userName.getText()) || checkUserTaken.length ==1){
+            boolean[] checkFields = controller.UpdateUser(oldUserName, txtfld_userName.getText(),txtfld_userPassword.getText(),datefld_userBirthday.getValue().toString(), txtfld_userFirstName.getText(),txtfld_userLastName.getText(), txtfld_userCity.getText());
             txtfld_userName.setStyle("");
             txtfld_userPassword.setStyle("");
             datefld_userBirthday.setStyle("");
@@ -27,10 +30,10 @@ public class updateController extends generalController {
             txtfld_userCity.setStyle("");
 
             checkUserParams(event, checkFields);
-
         }
         else{
-            txtfld_usrIsntExists.setVisible(true);
+            txtfld_userName.setStyle("-fx-border-width: 3; -fx-border-color: red");
+            txtfld_usrExists.setVisible(true);
         }
 
     }
@@ -38,8 +41,9 @@ public class updateController extends generalController {
     public void searchForUpdate(){
         search();
         if(searchsuccess){
+            oldUserName = txtfld_userName.getText();
             txtfld_usrIsntExists.setVisible(false);
-            txtfld_userName.setDisable(true);
+            //txtfld_userName.setDisable(true);
             txtfld_userPassword.setDisable(false);
             datefld_userBirthday.setDisable(false);
             txtfld_userFirstName.setDisable(false);

@@ -92,8 +92,8 @@ public class Model implements Imodel {
     }
 
     @Override
-    public boolean[] UpdateUser(String username, String password, String dateOfBirth, String firstName, String lastName, String city) {
-        return user.UpdateUser(username,  password, dateOfBirth, firstName, lastName, city);
+    public boolean[] UpdateUser(String oldusername, String username, String password, String dateOfBirth, String firstName, String lastName, String city) {
+        return user.UpdateUser(oldusername, username,  password, dateOfBirth, firstName, lastName, city);
     }
 
     @Override
